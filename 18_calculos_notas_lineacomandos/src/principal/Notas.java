@@ -29,10 +29,12 @@ public class Notas {
 		
 		System.out.println("Aprobados "+aprobados(args));
 		System.out.println("Aprobados "+media(args));		
-		/*SALIDA
+		/*
+		 * SALIDA cuando NO pasamos argumentos
 		 Aprobados 0
-		Aprobados NaN
+		 Aprobados NaN
 		--
+		SALIDA cuando SI pasamos argumentos
 		Aprobados 3
         Aprobados 7.533333333333334
 		 */
